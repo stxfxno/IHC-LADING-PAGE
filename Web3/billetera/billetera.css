@@ -1,0 +1,197 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 60px;
+}
+
+/* Estilos para el nav */
+
+.nav{
+    height: auto;
+    width: 18%;
+    float: left;
+    background-color: #F7F7F5;
+}
+
+.nav__link{
+    color: #303440;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.nav__link--inside{
+    border-radius: 6px ;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.nav__link--inside:hover{
+    background: #F6F8FA;
+}
+
+.list{
+    width: 100%;
+    height: 100vh;
+    margin-top:100px;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: #F7F7F5;
+}
+
+.list__item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.list__item--click{
+    cursor: pointer;
+}
+
+.list__button{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.arrow .list__arrow{
+    transform: rotate(90deg);
+}
+
+.list__arrow{
+    margin-left: auto;
+    transition: transform .3s;
+}
+
+.list__show{
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid #303440;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}
+
+/* Estilos para la lista del nav */
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list__item {
+    margin-bottom: 20px;
+}
+
+.list__button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.list__img {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para el main */
+
+main {
+    float: left;
+    width: 70%;
+    height: 90%;
+    padding: 20px;
+}
+
+/* Estilos para el footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    clear: both;
+}
+
+.Seccion_1{
+    height: 60%;
+    margin: 30px;
+   
+}
+
+.S1parte1{
+    height: 40%;
+    padding: 30px; 
+
+}
+.S1parte1 h1{
+    font-size: 40px;
+}
+
+.S1parte1 p{
+    font-size: 20px;
+}
+
+.rectangle {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto; /* Agregado para centrar horizontalmente */
+    display: flex; /* Añadido para distribuir los elementos en línea */
+    justify-content: center; /* Añadido para centrar los elementos horizontalmente */
+    background-color: #D3D3D3;
+    border: 1px solid rgb(198, 196, 196);
+    border-radius: 25px;
+    padding: 0 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.rectangle h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.logo {
+    width: 150px; /* ajusta el ancho según sea necesario */
+    height: 150px; /* ajusta la altura según sea necesario */
+    margin-top: 30px; /* ajusta el margen superior según sea necesario */
+
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.img{
+    text-align: center;
+}
