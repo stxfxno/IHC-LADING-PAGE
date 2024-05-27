@@ -13,7 +13,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 
     if (foundUser) {
         alert("Inicio de sesión exitoso.");
-        window.location.href = "/Web3/infogeneral/infogeneral.html";
+        window.location.href = "infogeneral.html";
     } else {
         alert("Correo o contraseña incorrectos. Inténtalo de nuevo.");
     }
